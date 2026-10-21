@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;      
+        }
+        .nature{
+             width:100%;
+             height:650px;
+             background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEJAzu5aTrvg0yPTkww7slPkkHuIjxHKsxRnF6YOnvsQ&s=10);
+             background-size: 100% 100%;
+        }
+        .photo1{
+            width:150px;
+            height:150px;
+            background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTXHkMlWbM3EOS0gb4kCzhmlR1aYkLoDaVGRYyxj0PdA&s=10);
+            background-size: 100% 100%;
+            border-radius:10px;
+            margin-left: auto;
+            margin-right: auto;
+            } 
+        .photo2{
+            width:150px;
+            height:150px;
+            background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKre9C7rurnLoGJZAZUgYBwHcb_VaBZrva9Ion62UDtQ&s=10);
+            background-size: 100% 100%;
+            border-radius:10px;
+            position:relative;
+            top:10px;
+            left:10px;
+        }
+        .photo3{
+            width:150px;
+            height:150px;
+            background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT27BJ0dtHfeBlwf4cJYLbeII9SwNlx8r5YatdvAroc9w&s=10);
+            background-size: 100% 100%;
+            border-radius:10px;
+            position:relative;
+            top: 10px;
+            left: 10px;
+        }
+        .photo4{
+            width:150px; 
+            height:150px;
+            border-radius:10px;
+            background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzcxgk1g-6P62sAPBEuiv8T9sT4rA9qkgxKqTV2JjxSQ&s=10);
+            background-size: 100% 100%;
+            position:relative;
+            top: 10px;
+            left: 10px;
+        }
+        .photo5{
+            width:150px;
+            height:150px;
+            border-radius:10px;
+            background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAknlDOaMb24F64ymCw-6HGk-MQx83lskoA9PxEROQRw&s=10);
+            background-size: 100% 100%;
+            position:relative;
+            top: 10px;
+            left: 10px;
+        }
+        .photo6{
+            width:150px;
+            height:150px;
+            border-radius:10px;
+            background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQCIzrwPBMt-99B16y1g498yBoUoRin1TlP8_ZoL-BYQ&s=10);
+            background-size: 100% 100%;
+            position:relative;
+            top: 10px;
+            left: 10px;
+        } 
+        .photo7{
+            width:150px;
+            height:150px;
+            border-radius:10px;
+            background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRj5Z4K6Gc0r0nfU7-p27ERZPC1WLDZsgjXRnxwir-8Aw&s);
+            background-size: 100% 100%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 100px;
+        }
+        .photo8{
+            width:150px;
+            height:150px;
+            border-radius:10px;
+            background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmT5_8uUXnGdPIYtZyvgDKhRAKf1BcbyP1sjUQaUXhHA&s=10);
+            background-size: 100% 100%;
+            position:relative;
+            top: 10px;
+            left: 10px;
+        }
+        .photo9{
+            width:150px;
+            height:150px;
+            border-radius:10px;
+            background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmtHo_6QqGdVz-V-EQ8ClxpCG4bIzSJeuPD5dlorsDag&s=10);
+            background-size: 100% 100%;
+            position:relative;
+            top: 10px;
+            left: 10px;
+        }
+        .photo10{
+            width:150px;
+            height:150px;
+            border-radius:10px;
+            background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwnI-CFa3fYfmDKf0zf821hNXyz0pIGab7NuP--zQn_A&s=10);
+            background-size: 100% 100%;
+            position:relative;
+            top: 10px;
+            left: 10px;
+        }
+        .photo11{
+            width:150px;
+            height:150px;
+            border-radius:10px;
+            background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRItOciAA7gwLU5x3INJ-FgEawgbbzhnYwd6qMf3XOhnw&s=10);
+            background-size: 100% 100%;
+            position:relative;
+            top: 10px;
+            left: 10px;
+        }
+        .photo12{
+            width:150px;
+            height:150px;
+            border-radius:10px;
+            background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwiXIJOaqwYUn4NACl3s3Mlwd56VKMiMQEYLg0GfwxZQ&s=10);
+            background-size: 100% 100%;
+            position:relative;
+            margin-top:50px;
+            margin-left: auto;
+            margin-right: auto;
+            top: 10px;
+            left: 10px;
+        }
+        .photo13{
+            width:150px;
+            height:150px;
+            border-radius:10px;
+            background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXBrsEWob4Yr3CfGF2DqCzM-D03GGF8Yx-6oiHq7qqjQ&s);
+            background-size: 100% 100%;
+            position:relative;
+            top: 10px;
+            left: 10px;
+        }
+        .photo14{
+            width:150px;
+            height:150px;
+            border-radius:10px;
+            background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbTIILtJi6H9D6pMK_yy9Wfh6ZM_2pf9bRsiIqOQgCYg&s=10);
+            background-size: 100% 100%;
+            position:relative;
+            top: 10px;
+            left: 10px;
+        }
+        .photo15{
+            width:150px;
+            height:150px;
+            border-radius:10px;
+            background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNLIDh4wCzHtiyTlzCfCFRG9RpA5r64CeRrlGtj0E_qw&s=10);
+            background-size: 100% 100%;
+            position:relative;
+            top: 10px;
+            left: 10px;
+        }
+        .photo16{
+            width:150px;
+            height:150px;
+            border-radius:10px;
+            background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRanF6GQIUoXHkdMxSEjn1M0-apMwKj6vkYUvIU_LD41A&s);
+            background-size: 100% 100%;
+            position:relative;
+            top: 10px;
+            left: 10px;
+        }
+    </style>
+</head>
+<body>
+     <div class="nature">
+       <div class="photo1">
+        <div class="photo2">
+         <div class="photo3">
+         <div class="photo4">
+         <div class="photo5">
+        <div class="photo6">
+        </div>
+       </div>
+       </div>
+       </div>
+      </div>
+       </div>
+       <div class="photo7">
+        <div class="photo8">
+         <div class="photo9">
+         <div class="photo10">
+        <div class="photo11">
+       </div>
+       </div>
+       </div>
+     </div>
+       </div>
+       
+       <div class="photo12">
+        <div class="photo13">
+        <div class="photo14">
+        <div class="photo15">
+        <div class="photo16">
+       </div>
+       </div>
+       </div>
+       </div>
+       </div>
+     </div>
+</body>
+</html>
